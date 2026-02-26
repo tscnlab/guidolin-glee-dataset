@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "repo": "tscnlab/guidolin-glee-dataset",
+  "commit_sha": "7bf5591b5f06c20dcd4e40f6c75ffa394a562872",
+  "validator_version": "0.1.4",
+  "timestamp_utc": "2026-02-26T17:59:17.159343+00:00",
+  "datapackage": "datapackage.json",
+  "warnings": [],
+  "errors": [],
+  "error_count": 0,
+  "warning_count": 0
+}
