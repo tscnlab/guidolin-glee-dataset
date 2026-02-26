@@ -1,12 +1,20 @@
 {
-  "status": "pass",
+  "status": "fail",
   "repo": "tscnlab/guidolin-glee-dataset",
-  "commit_sha": "3621abf3a2f59f1e46493cfbe40a9b4d182397a1",
+  "commit_sha": "f17b8aa0e79db36527ed2eb8c3e4a1153d2cf96a",
   "validator_version": "0.1.4",
-  "timestamp_utc": "2026-02-26T18:08:53.686525+00:00",
+  "timestamp_utc": "2026-02-26T18:10:39.350524+00:00",
   "datapackage": "datapackage.json",
   "warnings": [],
-  "errors": [],
-  "error_count": 0,
+  "errors": [
+    {
+      "message": "[study CG2024] Unknown dataset ID in study_datasets: 'DS021'",
+      "path": [
+        "study_datasets",
+        0
+      ]
+    }
+  ],
+  "error_count": 1,
   "warning_count": 0
 }

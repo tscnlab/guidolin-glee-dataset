@@ -1,1 +1,2 @@
-All validations passed (profile + schema + cross-resource).
+Validation errors:
+ - [study CG2024] Unknown dataset ID in study_datasets: 'DS021' (failed at path: ['study_datasets', 0])
