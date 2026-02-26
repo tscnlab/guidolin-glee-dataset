@@ -1,0 +1,47 @@
+name: Validate GLEE Dataset
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run validator container
+        run: |
+          mkdir -p validation_out
+          set +e
+
+          docker login ghcr.io -u "${{ github.actor }}" -p "${{ secrets.GITHUB_TOKEN }}"
+
+          docker run --rm \
+            -e GITHUB_REPOSITORY="${{ github.repository }}" \
+            -e GITHUB_SHA="${{ github.sha }}" \
+            -e VALIDATION_JSON="/data/validation_out/validation.json" \
+            -v "${{ github.workspace }}:/data" \
+            -w /data \
+            ghcr.io/tscnlab/glee-validator:0.1.2 \
+            datapackage.json \
+            | tee validation_out/validation.log
+
+          exit_code=${PIPESTATUS[0]}
+          echo "$exit_code" > validation_out/exit_code.txt
+          exit $exit_code
+
+      - name: Upload validation artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report
+          path: validation_out/
+          retention-days: 30
