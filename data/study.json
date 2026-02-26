@@ -1,0 +1,74 @@
+[
+  {
+    "study_internal_id": "CG2024",
+    "study_title": "Near-corneal plane light exposure in daily life",
+    "study_ethics": "Ethics Committee Technical University of Munich, 2023-115-S-KK",
+    "study_short_description": "In this study, we measured light exposure in healthy participants at the near-corneal plane, and captured a variaty of contextual, environmental and behavioural contributors to light exposure patterns using smartphone-based experience sampling.",
+    "study_sample": "Participants are healthy adults between 18 and 55 years old (n=26; mean age 28±5 years, 14F)",
+    "study_groups": [
+    {
+      "study_group_name": "Main",
+      "study_group_description": "Healthy",
+      "study_group_size": 26,
+      "study_group_inclusion": [
+        "≥18, ≤55 years old",
+        "good physical health"
+      ],
+      "study_group_exclusion":[
+        "systemic medication use",
+        "substance use",
+        "psychiatric sleep disorders presence",
+        "requirement of prescription glasses during the experiment",
+        "absent from Tuebingen on first and last experimental days"
+      ]
+    }
+  ],
+    "study_setting": "real-world setting",
+    "study_geographical_location": "urban, South-West Germany (48.5216° N, 9.0576° E)",
+    "study_datasets": [
+      "DS001", "DS002"
+    ],
+    "study_type": "observational",
+    "study_funding_sources": ["The study was part of the the MeLiDos project. The MeLiDos project (22NRM05 MeLiDos) has received funding from the European Partnership on Metrology, co-financed by the European Union’s Horizon Europe Research and Innovation Programme and by the Participating States."], 
+    "study_keywords": [
+      "longitundinal light logging",
+      "ambulatory study"
+    ],
+    "study_contributors": [
+  {
+    "contributor_full_name": "Johannes Zaunder",
+    "contributor_roles": ["Data Curation", "Investigation", "Conceptualization"],
+    "contributor_email": "johannes.zauner@tum.de",
+    "contributor_orcid": "0000-0003-2171-4566",
+    "contributor_institution": {
+      "contributor_institution_name": "Technical University of Munich",
+      "contributor_institution_city": "Munich",
+      "contributor_institution_country": "Germany"
+    }
+  },
+  {
+    "contributor_full_name": "Carolina Guidolin",
+    "contributor_roles": ["Conceptualization", "Data collection"],
+    "contributor_email": "carolina.guidolin@tuebingen.mpg.de",
+    "contributor_orcid": "0009-0007-4959-2667",
+    "contributor_institution": {
+      "contributor_institution_name": "Max Planck Insitute for Biological Cybernetics & Technical University of Munich",
+      "contributor_institution_city": "Tuebingen, Munich",
+      "contributor_institution_country": "Germany"
+    }
+  },
+  {
+    "contributor_full_name": "Manuel Spitschan",
+    "contributor_roles": ["Conceptualization", "Supervision"],
+    "contributor_email": "manuel.spitschan@tuebingen.mpg.de",
+    "contributor_orcid": "0000-0002-8572-9268",
+    "contributor_institution": {
+      "contributor_institution_name": "Max Planck Insitute for Biological Cybernetics & Technical University of Munich",
+      "contributor_institution_city": "Tuebingen, Munich",
+      "contributor_institution_country": "Germany"
+    }
+  }
+]
+
+  }
+]

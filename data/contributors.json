@@ -1,0 +1,28 @@
+[
+  {
+    "contributor_full_name": "Ada Lovelace",
+    "contributor_roles": ["Author", "Conceptualization"],
+    "contributor_email": "ada.lovelace@example.org",
+    "contributor_orcid": "0000-0001-2345-6789",
+    "contributor_institution": {
+      "contributor_institution_name": "University of London",
+      "contributor_institution_city": "London",
+      "contributor_institution_country": "United Kingdom"
+    }
+  },
+  {
+    "contributor_full_name": "Alan Turing",
+    "contributor_roles": ["Data Collector"],
+    "contributor_email": "alan.turing@example.org",
+    "contributor_orcid": "0000-0002-9876-5432",
+    "contributor_institution": {
+      "contributor_institution_name": "University of Cambridge",
+      "contributor_institution_country": "United Kingdom"
+    }
+  },
+  {
+    "contributor_full_name": "Grace Hopper",
+    "contributor_roles": ["Software", "Data Curation"],
+    "contributor_orcid": "0000-0003-1357-2468"
+  }
+]

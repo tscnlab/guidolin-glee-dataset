@@ -1,0 +1,281 @@
+[
+  {
+    "dataset_internal_id": "DS001",
+    "dataset_instructions": "Wear device at all times during the day and log non-wear intervals longer than 2 minutes. During the night, place the device on a nightstand facing upwards and log this event. Non-wear events logged as follows.  When taking the light glasses off, participants were to press the event button on the light glasses and then place them in the black bag provided. Participants were then to log this action in the app-based Wear log as “Taking the light glasses off”. Likewise, when putting the light glasses back on, they were instructed to take them out of the black bag, press the event button and log this action in the Wear log as “Putting the light glasses on”. In the Wear log, participants also had to indicate whether the light glasses were actually placed in the black bag. If they forgot the black bag, they had to describe where they placed the light glasses instead. When taking the light glasses off before sleep, participants were to place them facing upwards on a bedside table or flat surface near their bed and to log this action in the Wear log as “Taking the light glasses off before sleep and placing them on a nightstand.",
+    "dataset_crossref": {
+      "dataset_crossref_study_id": "CG2024",
+      "dataset_crossref_participant_id": "201",
+      "dataset_crossref_device_id": "D001"
+    },
+    "dataset_device_location": "non-prescription glasses, centrally on bridge between the two lenses",
+    "dataset_sampling_interval": 10,
+    "dataset_datetime": {
+      "dataset_datetime_date": "DATE/TIME",
+      "dataset_datetime_dateformat": "YYYY-MM-DD HH:mm:ss"
+    },
+    "dataset_illuminance": "LIGHT",
+    "dataset_melEDI": "MEDI",
+    "dataset_timezone": "Europe/Berlin",
+    "dataset_location": ["48.5216", "9.0576"],
+    "dataset_file": [
+      {
+        "dataset_file_names": ["201_actlumus_Log_1020_20230821094227441.txt"],
+        "dataset_file_format": "txt",
+        "dataset_file_encoding": ["UTF-8"],
+        "dataset_file_timezone": "Europe/Berlin",
+        "dataset_file_auxiliary": true,
+        "dataset_file_preprocessing": {
+          "dataset_file_preprocessing_bol": false,
+          "dataset_file_preprocessing_desc": []
+        },
+          "dataset_file_variables": [
+    {
+      "dataset_file_variables_name": "DATE/TIME",
+      "dataset_file_variables_labels": "Timestamp",
+      "dataset_file_variables_units": "N/A",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "MS",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "EVENT",
+      "dataset_file_variables_labels": "Occurrence of a button press. 0 means no button press, 1 means button press",
+      "dataset_file_variables_units": "0 or 1",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "TEMPERATURE",
+      "dataset_file_variables_labels": "Skin temperature",
+      "dataset_file_variables_units": "°C",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "EXT. TEMPERATURE",
+      "dataset_file_variables_labels": "environmental temperature",
+      "dataset_file_variables_units": "°C",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "ORIENTATION",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "PIM",
+      "dataset_file_variables_labels": "Accelerometer data (proportional integration method)",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "TAT",
+      "dataset_file_variables_labels": "Accelerometer data (Time Above Threshold)",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "ZCM",
+      "dataset_file_variables_labels": "Accelerometer data (Zero Crossing Method)",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "PIMn",
+      "dataset_file_variables_labels": "Normalised PIM",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "TATn",
+      "dataset_file_variables_labels": "Normalised TAT",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "ZCMn",
+      "dataset_file_variables_labels": "Normalised ZCM",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "LIGHT",
+      "dataset_file_variables_labels": "Photopic illuminance",
+      "dataset_file_variables_units": "lx",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "AMB LIGHT",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "RED LIGHT",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "GREEN LIGHT",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "BLUE LIGHT",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "IR LIGHT",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "UVA LIGHT",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "UVB LIGHT",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "STATE",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "CAP_SENS_1",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "CAP_SENS_2",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "F1",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "F2",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "F3",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "F4",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "F5",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "F6",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "F7",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "F8",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "MEDI",
+      "dataset_file_variables_labels": "Not measured",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    },
+    {
+      "dataset_file_variables_name": "CLEAR",
+      "dataset_file_variables_labels": "Unknown",
+      "dataset_file_variables_units": "Unknown",
+      "dataset_file_variables_calibration": "N/A"
+    }
+  ]
+      }
+    ]
+  },
+   {
+    "dataset_internal_id": "DS002",
+    "dataset_instructions": "Wear device on non-dominant wrist; press marker at bedtime.",
+    "dataset_crossref": {
+      "dataset_crossref_study_id": "CG2024",
+      "dataset_crossref_participant_id": "201",
+      "dataset_crossref_device_id": "D001"
+    },
+    "dataset_device_location": "non-dominant wrist",
+    "dataset_sampling_interval": 60,
+    "dataset_datetime": {
+      "dataset_datetime_date": "timestamp",
+      "dataset_datetime_dateformat": "YYYY-MM-DD HH:mm:ss"
+    },
+    "dataset_illuminance": "lux",
+    "dataset_melEDI": "mel_edi_d65",
+    "dataset_timezone": "Europe/Berlin",
+    "dataset_location": ["48.1351", "11.5820"],
+    "dataset_file": [
+      {
+        "dataset_file_names": ["p001_wrist_2025-06-01.csv"],
+        "dataset_file_format": "csv",
+        "dataset_file_encoding": ["UTF-8"],
+        "dataset_file_timezone": "Europe/Berlin",
+        "dataset_file_auxiliary": false,
+        "dataset_file_preprocessing": {
+          "dataset_file_preprocessing_bol": true,
+          "dataset_file_preprocessing_desc": [
+            "Trimmed first 5 min to remove handling artifacts",
+            "Deduplicated timestamps"
+          ]
+        },
+        "dataset_file_variables": [
+          {
+            "dataset_file_variables_name": "timestamp",
+            "dataset_file_variables_labels": "Timestamp",
+            "dataset_file_variables_units": "ISO8601"
+          },
+          {
+            "dataset_file_variables_name": "lux",
+            "dataset_file_variables_labels": "Photopic illuminance",
+            "dataset_file_variables_units": "lux"
+          }
+        ]
+      }
+    ]
+  }
+]

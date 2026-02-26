@@ -1,0 +1,38 @@
+# ----------------------------
+# OS / system files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Validation outputs
+# ----------------------------
+validation_out/
+*.log
+
+# ----------------------------
+# Python / environments (only if you ever run local scripts here)
+# ----------------------------
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# ----------------------------
+# Editor / IDE
+# ----------------------------
+.vscode/
+.idea/
+
+# ----------------------------
+# Local scratch / temp files
+# ----------------------------
+scratch/
+tmp/
+*.tmp
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/

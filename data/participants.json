@@ -1,0 +1,20 @@
+[
+  {
+    "participant_internal_id": "201",
+    "participant_age": 29,
+    "participant_sex": "male",
+    "participant_gender": ""
+  },
+  {
+    "participant_internal_id": "P001",
+    "participant_age": 34,
+    "participant_sex": "female",
+    "participant_gender": ""
+
+  },
+  {
+    "participant_internal_id": "P003",
+    "participant_age":22,
+    "participant_sex": "other"
+  }
+]

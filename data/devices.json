@@ -1,0 +1,50 @@
+[
+  {
+    "device_internal_id": "D001",
+    "device_manufacturer": "Condor Instruments, São Paolo, Brazil",
+    "device_model": "ActLumus",
+    "device_serial_number": "01640",
+    "device_calibration_date": "2222-01-01",
+    "device_firmware_version": "v1.2.3",
+    "device_datasheet_id":"lumitech-lt100-v1.0",
+    "device_sensors":[
+    {"device_sensor_type": "Accelerometer"},
+    {"device_sensor_type": "Wrist temperature"},
+    {"device_sensor_type": "Melaonpic light sensor"},
+    {"device_sensor_type": "Photopic light sensor"},
+    {"device_sensor_type": "RGP + IR sensor"}
+  ]
+  },
+    {
+    "device_internal_id": "D002",
+    "device_manufacturer": "Condor Instruments, São Paolo, Brazil",
+    "device_model": "ActLumus",
+    "device_serial_number": "02916",
+    "device_calibration_date": "2222-01-01",
+    "device_firmware_version": "v1.2.3",
+    "device_datasheet_id":"lumitech-lt100-v1.0",
+    "device_sensors":[
+    {"device_sensor_type": "Accelerometer"},
+    {"device_sensor_type": "Wrist temperature"},
+    {"device_sensor_type": "Melaonpic light sensor"},
+    {"device_sensor_type": "Photopic light sensor"},
+    {"device_sensor_type": "RGP + IR sensor"}
+  ]
+  },
+    {
+    "device_internal_id": "D003",
+    "device_manufacturer": "Condor Instruments, São Paolo, Brazil",
+    "device_model": "ActLumus",
+    "device_serial_number": "01740",
+    "device_calibration_date": "2222-01-01",
+    "device_firmware_version": "v1.2.3",
+    "device_datasheet_id":"lumitech-lt100-v1.0",
+    "device_sensors":[
+    {"device_sensor_type": "Accelerometer"},
+    {"device_sensor_type": "Wrist temperature"},
+    {"device_sensor_type": "Melaonpic light sensor"},
+    {"device_sensor_type": "Photopic light sensor"},
+    {"device_sensor_type": "RGP + IR sensor"}
+  ]
+  }
+]

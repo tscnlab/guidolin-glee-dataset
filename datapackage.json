@@ -1,0 +1,80 @@
+{
+  "name": "gleam-dataset",
+  "title": "GLEAM Dataset",
+  "description": "Data package for light exposure studies using the GLEAM metadata profile.",
+  "created": "2025-05-13T12:00:00Z",
+  "profile": "schemas/gleam-dp-profile.json",
+  "contributors": [
+    {
+      "title": "GLEE Consortium",
+      "role": "publisher",
+      "path": "https://visualdiet.org"
+    },
+    {
+      "title": "Manuel Spitschan",
+      "email": "manuel.spitschan@tum.de",
+      "role": "principalInvestigator",
+      "path": "https://orcid.org/0000-0002-8572-9268"
+    }
+  ],
+  "homepage": "https://visualdiet.org",
+  "resources": [
+    {
+      "name": "study",
+      "path": "data/study.json",
+      "profile": "schemas/json-entity-resource.json",
+      "mediatype": "application/json",
+      "jsonSchema": "schemas/study.schema.json"
+    },
+    {
+      "name": "participants",
+      "path": "data/participants.json",
+      "profile": "tabular-data-resource",
+      "mediatype": "application/json",
+      "format": "json",
+      "schema": "schemas/participants.schema.json"
+    },
+
+    {
+      "name": "participant_characteristics",
+      "path": "data/participant_characteristics.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "format": "csv",
+      "schema": "schemas/participant_characteristics.schema.json"
+    },
+
+    {
+      "name": "datasets",
+      "path": "data/datasets.json",
+      "profile": "schemas/json-entity-resource.json",
+      "mediatype": "application/json",
+      "jsonSchema": "schemas/dataset.schema.json"
+    },
+    {
+      "name": "devices",
+      "path": "data/devices.json",
+      "profile": "schemas/json-entity-resource.json",
+      "mediatype": "application/json",
+      "jsonSchema": "schemas/device.schema.json"
+    },
+
+    {
+      "name": "device_datasheets",
+      "path": "data/datasheets/",
+      "profile": "schemas/json-entity-resource.json",
+      "mediatype": "application/json",
+      "jsonSchema": "schemas/device_datasheet.schema.json"
+    },
+
+    {
+      "name": "light_data",
+      "path": "data/light_data.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "dialect": { "delimiter": ";", "decimalChar": "." },
+      "schema": "schemas/light_data.schema.json"
+    }
+  ]
+}

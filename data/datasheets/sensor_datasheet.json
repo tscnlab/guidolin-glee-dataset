@@ -1,0 +1,24 @@
+{
+  "datasheet_id": "lumitech-lt100-sensora-v1.0",
+  "datasheet_version": "1.0",
+  "datasheet_manufacturer": "Lumitech",
+  "datasheet_type": "Photopic Light Sensor",
+  "datasheet_model": "LT-100-SensorA",
+  "datasheet_calibration_interval": 180,
+  "datasheet_calibration_spectral_sensitivity": [
+    { "datasheet_calibration_spectral_sensitivity_wavelength": 450, "datasheet_calibration_spectral_sensitivity_relative": 0.72 },
+    { "datasheet_calibration_spectral_sensitivity_wavelength": 555, "datasheet_calibration_spectral_sensitivity_relative": 1.0 },
+    { "datasheet_calibration_spectral_sensitivity_wavelength": 650, "datasheet_calibration_spectral_sensitivity_relative": 0.48 }
+  ],
+  "datasheet_calibration_linearity": "±3% over 0–20,000 lux",
+  "datasheet_calibration_directional_response": "±5% (cosine corrected)",
+  "datasheet_calibration_range": "0–20,000 lux",
+  "datasheet_channel": [
+    {
+      "datasheet_channel_nr": 1,
+      "datasheet_channel_name": "photopic",
+      "datasheet_channel_unit": "lux",
+      "datasheet_channel_description": "Human eye-weighted visible light (V-lambda response)"
+    }
+  ]
+}
