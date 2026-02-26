@@ -26,7 +26,7 @@
     "study_setting": "real-world setting",
     "study_geographical_location": "urban, South-West Germany (48.5216° N, 9.0576° E)",
     "study_datasets": [
-      "DS012", "DS002"
+      "DS001", "DS002"
     ],
     "study_type": "observational",
     "study_funding_sources": ["The study was part of the the MeLiDos project. The MeLiDos project (22NRM05 MeLiDos) has received funding from the European Partnership on Metrology, co-financed by the European Union’s Horizon Europe Research and Innovation Programme and by the Participating States."], 
