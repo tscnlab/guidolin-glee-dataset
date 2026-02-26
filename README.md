@@ -1,4 +1,4 @@
-# Guidolin GLEE Dataset (partial)
+# Guidolin et al. MeLiDoS dataset (partial)
 
 Metadata and data resources following the GLEE specification.
 
