@@ -1,1 +1,3 @@
+Warnings:
+ - [profile] Dataset declares profile 'schemas/gleam-dp-profile.json', but canonical validator profile is enforced
 All validations passed (profile + schema + cross-resource).

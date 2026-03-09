@@ -1,12 +1,16 @@
 {
   "status": "pass",
   "repo": "tscnlab/guidolin-glee-dataset",
-  "commit_sha": "d7a884a926f6dfb7c770327d05b3c3b1d66fd60e",
-  "validator_version": "0.1.4",
-  "timestamp_utc": "2026-02-27T12:26:19.978815+00:00",
+  "commit_sha": "10784c09069727c904ff63515115db839958d239",
+  "validator_version": "0.2.0",
+  "timestamp_utc": "2026-03-09T19:54:04.355980+00:00",
   "datapackage": "datapackage.json",
-  "warnings": [],
+  "core_schema_source": "container",
+  "profile_source": "container",
+  "warnings": [
+    "[profile] Dataset declares profile 'schemas/gleam-dp-profile.json', but canonical validator profile is enforced"
+  ],
   "errors": [],
   "error_count": 0,
-  "warning_count": 0
+  "warning_count": 1
 }
