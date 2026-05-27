@@ -11,7 +11,7 @@
     },
     {
       "datasheet_calibration_spectral_sensitivity_wavelength": 555,
-      "datasheet_calibration_spectral_sensitivity_relative": 1.00
+      "datasheet_calibration_spectral_sensitivity_relative": 1.0
     },
     {
       "datasheet_calibration_spectral_sensitivity_wavelength": 650,
@@ -34,5 +34,6 @@
       "datasheet_channel_unit": "µW/cm²",
       "datasheet_channel_description": "Blue light band (peak ~470 nm)"
     }
-  ]
+  ],
+  "schema_version": "2.0.0"
 }

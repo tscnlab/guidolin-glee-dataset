@@ -3,7 +3,8 @@
   "title": "GLEAM Dataset",
   "description": "Data package for light exposure studies using the GLEAM metadata profile.",
   "created": "2025-05-13T12:00:00Z",
-  "profile": "schemas/gleam-dp-profile.json",
+  "schema_version": "2.0.0",
+  "profile": "schemas/2.0.0/gleam-dp-profile.json",
   "contributors": [
     {
       "title": "GLEE Consortium",
@@ -24,7 +25,7 @@
       "path": "data/study.json",
       "profile": "schemas/json-entity-resource.json",
       "mediatype": "application/json",
-      "jsonSchema": "schemas/study.schema.json"
+      "jsonSchema": "schemas/2.0.0/study.schema.json"
     },
     {
       "name": "participants",
@@ -32,7 +33,7 @@
       "profile": "tabular-data-resource",
       "mediatype": "application/json",
       "format": "json",
-      "schema": "schemas/participants.schema.json"
+      "schema": "schemas/2.0.0/participants.schema.json"
     },
 
     {
@@ -41,7 +42,7 @@
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "format": "csv",
-      "schema": "schemas/participant_characteristics.schema.json"
+      "schema": "schemas/2.0.0/participant_characteristics.schema.json"
     },
 
     {
@@ -49,14 +50,14 @@
       "path": "data/datasets.json",
       "profile": "schemas/json-entity-resource.json",
       "mediatype": "application/json",
-      "jsonSchema": "schemas/dataset.schema.json"
+      "jsonSchema": "schemas/2.0.0/dataset.schema.json"
     },
     {
       "name": "devices",
       "path": "data/devices.json",
       "profile": "schemas/json-entity-resource.json",
       "mediatype": "application/json",
-      "jsonSchema": "schemas/device.schema.json"
+      "jsonSchema": "schemas/2.0.0/device.schema.json"
     },
 
     {
@@ -64,7 +65,7 @@
       "path": "data/datasheets/",
       "profile": "schemas/json-entity-resource.json",
       "mediatype": "application/json",
-      "jsonSchema": "schemas/device_datasheet.schema.json"
+      "jsonSchema": "schemas/2.0.0/device_datasheet.schema.json"
     },
 
     {

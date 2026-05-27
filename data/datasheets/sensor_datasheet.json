@@ -6,9 +6,18 @@
   "datasheet_model": "LT-100-SensorA",
   "datasheet_calibration_interval": 180,
   "datasheet_calibration_spectral_sensitivity": [
-    { "datasheet_calibration_spectral_sensitivity_wavelength": 450, "datasheet_calibration_spectral_sensitivity_relative": 0.72 },
-    { "datasheet_calibration_spectral_sensitivity_wavelength": 555, "datasheet_calibration_spectral_sensitivity_relative": 1.0 },
-    { "datasheet_calibration_spectral_sensitivity_wavelength": 650, "datasheet_calibration_spectral_sensitivity_relative": 0.48 }
+    {
+      "datasheet_calibration_spectral_sensitivity_wavelength": 450,
+      "datasheet_calibration_spectral_sensitivity_relative": 0.72
+    },
+    {
+      "datasheet_calibration_spectral_sensitivity_wavelength": 555,
+      "datasheet_calibration_spectral_sensitivity_relative": 1.0
+    },
+    {
+      "datasheet_calibration_spectral_sensitivity_wavelength": 650,
+      "datasheet_calibration_spectral_sensitivity_relative": 0.48
+    }
   ],
   "datasheet_calibration_linearity": "±3% over 0–20,000 lux",
   "datasheet_calibration_directional_response": "±5% (cosine corrected)",
@@ -20,5 +29,6 @@
       "datasheet_channel_unit": "lux",
       "datasheet_channel_description": "Human eye-weighted visible light (V-lambda response)"
     }
-  ]
+  ],
+  "schema_version": "2.0.0"
 }
