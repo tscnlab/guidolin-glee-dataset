@@ -33,7 +33,7 @@ jobs:
             -e VALIDATION_JSON="/data/validation_out/validation.json" \
             -v "${{ github.workspace }}:/data" \
             -w /data \
-            ghcr.io/tscnlab/glee-validator:0.3.0 \
+            ghcr.io/tscnlab/glee-validator:0.4.0 \
             datapackage.json \
             | tee validation_out/validation.log
 
