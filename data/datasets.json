@@ -1,7 +1,8 @@
 [
   {
+    "schema_version": "2.0.0",
     "dataset_internal_id": "DS001",
-    "dataset_instructions": "Wear device at all times during the day and log non-wear intervals longer than 2 minutes. During the night, place the device on a nightstand facing upwards and log this event. Non-wear events logged as follows.  When taking the light glasses off, participants were to press the event button on the light glasses and then place them in the black bag provided. Participants were then to log this action in the app-based Wear log as “Taking the light glasses off”. Likewise, when putting the light glasses back on, they were instructed to take them out of the black bag, press the event button and log this action in the Wear log as “Putting the light glasses on”. In the Wear log, participants also had to indicate whether the light glasses were actually placed in the black bag. If they forgot the black bag, they had to describe where they placed the light glasses instead. When taking the light glasses off before sleep, participants were to place them facing upwards on a bedside table or flat surface near their bed and to log this action in the Wear log as “Taking the light glasses off before sleep and placing them on a nightstand.",
+    "dataset_instructions": "Wear device at all times during the day and log non-wear intervals longer than 2 minutes. During the night, place the device on a nightstand facing upwards and log this event. Non-wear events logged as follows.  When taking the light glasses off, participants were to press the event button on the light glasses and then place them in the black bag provided. Participants were then to log this action in the app-based Wear log as \u201cTaking the light glasses off\u201d. Likewise, when putting the light glasses back on, they were instructed to take them out of the black bag, press the event button and log this action in the Wear log as \u201cPutting the light glasses on\u201d. In the Wear log, participants also had to indicate whether the light glasses were actually placed in the black bag. If they forgot the black bag, they had to describe where they placed the light glasses instead. When taking the light glasses off before sleep, participants were to place them facing upwards on a bedside table or flat surface near their bed and to log this action in the Wear log as \u201cTaking the light glasses off before sleep and placing them on a nightstand.",
     "dataset_crossref": {
       "dataset_crossref_study_id": "CG2024",
       "dataset_crossref_participant_id": "201",
@@ -17,6 +18,20 @@
     "dataset_location": [
       "48.5216",
       "9.0576"
+    ],
+    "dataset_variable_terms": [
+      {
+        "term": "photopic illuminance",
+        "label": "photopic illuminance"
+      },
+      {
+        "term": "melEDI",
+        "label": "melEDI"
+      },
+      {
+        "term": "other",
+        "label": "other"
+      }
     ],
     "dataset_file": [
       {
@@ -68,7 +83,7 @@
           {
             "dataset_file_variables_name": "TEMPERATURE",
             "dataset_file_variables_labels": "Skin temperature",
-            "dataset_file_variables_units": "°C",
+            "dataset_file_variables_units": "\u00b0C",
             "dataset_file_variables_calibration": "N/A",
             "dataset_file_variables_term": {
               "variable_term": "other",
@@ -78,7 +93,7 @@
           {
             "dataset_file_variables_name": "EXT TEMPERATURE",
             "dataset_file_variables_labels": "environmental temperature",
-            "dataset_file_variables_units": "°C",
+            "dataset_file_variables_units": "\u00b0C",
             "dataset_file_variables_calibration": "N/A",
             "dataset_file_variables_term": {
               "variable_term": "other",
@@ -368,10 +383,10 @@
           "LIGHT"
         ]
       }
-    ],
-    "schema_version": "2.0.0"
+    ]
   },
   {
+    "schema_version": "2.0.0",
     "dataset_internal_id": "DS002",
     "dataset_instructions": "Wear device on non-dominant wrist; press marker at bedtime.",
     "dataset_crossref": {
@@ -389,6 +404,16 @@
     "dataset_location": [
       "48.1351",
       "11.5820"
+    ],
+    "dataset_variable_terms": [
+      {
+        "term": "photopic illuminance",
+        "label": "photopic illuminance"
+      },
+      {
+        "term": "other",
+        "label": "other"
+      }
     ],
     "dataset_file": [
       {
@@ -431,7 +456,6 @@
           "lux"
         ]
       }
-    ],
-    "schema_version": "2.0.0"
+    ]
   }
 ]
