@@ -1,16 +1,62 @@
 {
-  "status": "pass",
+  "status": "fail",
   "repo": "tscnlab/guidolin-glee-dataset",
-  "commit_sha": "e3c80f297a4a6241330eedc0d210a249ad491fea",
-  "validator_version": "0.3.0",
-  "timestamp_utc": "2026-05-27T20:03:52.532335+00:00",
+  "commit_sha": "661e22fe315ffc2cc8490bbe7aaca75b72b9bfde",
+  "validator_version": "0.4.0",
+  "timestamp_utc": "2026-05-28T16:37:57.247841+00:00",
   "datapackage": "datapackage.json",
   "core_schema_source": "container",
   "profile_source": "container",
   "column_check_mode": "lenient",
   "warnings": [],
-  "errors": [],
+  "errors": [
+    {
+      "message": "[datasets row 1] 'dataset_variable_terms' is a required property",
+      "path": [
+        "<root>"
+      ]
+    },
+    {
+      "message": "[datasets row 2] 'dataset_variable_terms' is a required property",
+      "path": [
+        "<root>"
+      ]
+    },
+    {
+      "message": "[dataset DS001 file 1 variable 13] Unknown variable_term 'photopic illuminance'. It must be declared in dataset_variable_terms (or be 'other').",
+      "path": [
+        "dataset_file",
+        0,
+        "dataset_file_variables",
+        12,
+        "dataset_file_variables_term",
+        "variable_term"
+      ]
+    },
+    {
+      "message": "[dataset DS001 file 1 variable 32] Unknown variable_term 'melEDI'. It must be declared in dataset_variable_terms (or be 'other').",
+      "path": [
+        "dataset_file",
+        0,
+        "dataset_file_variables",
+        31,
+        "dataset_file_variables_term",
+        "variable_term"
+      ]
+    },
+    {
+      "message": "[dataset DS002 file 1 variable 2] Unknown variable_term 'photopic illuminance'. It must be declared in dataset_variable_terms (or be 'other').",
+      "path": [
+        "dataset_file",
+        0,
+        "dataset_file_variables",
+        1,
+        "dataset_file_variables_term",
+        "variable_term"
+      ]
+    }
+  ],
   "schema_version": "2.0.0",
-  "error_count": 0,
+  "error_count": 5,
   "warning_count": 0
 }
