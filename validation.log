@@ -1,6 +1,1 @@
-Validation errors:
- - [datasets row 1] 'dataset_variable_terms' is a required property (failed at path: ['<root>'])
- - [datasets row 2] 'dataset_variable_terms' is a required property (failed at path: ['<root>'])
- - [dataset DS001 file 1 variable 13] Unknown variable_term 'photopic illuminance'. It must be declared in dataset_variable_terms (or be 'other'). (failed at path: ['dataset_file', 0, 'dataset_file_variables', 12, 'dataset_file_variables_term', 'variable_term'])
- - [dataset DS001 file 1 variable 32] Unknown variable_term 'melEDI'. It must be declared in dataset_variable_terms (or be 'other'). (failed at path: ['dataset_file', 0, 'dataset_file_variables', 31, 'dataset_file_variables_term', 'variable_term'])
- - [dataset DS002 file 1 variable 2] Unknown variable_term 'photopic illuminance'. It must be declared in dataset_variable_terms (or be 'other'). (failed at path: ['dataset_file', 0, 'dataset_file_variables', 1, 'dataset_file_variables_term', 'variable_term'])
+All validations passed (profile + schema + cross-resource).
