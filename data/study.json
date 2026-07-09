@@ -20,6 +20,10 @@
           "psychiatric sleep disorders presence",
           "requirement of prescription glasses during the experiment",
           "absent from Tuebingen on first and last experimental days"
+        ],
+        "study_group_datasets": [
+          "DS001",
+          "DS002"
         ]
       }
     ],
