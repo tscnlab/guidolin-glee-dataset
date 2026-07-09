@@ -6,7 +6,7 @@
     "device_serial_number": "01640",
     "device_calibration_date": "2222-01-01",
     "device_firmware_version": "v1.2.3",
-    "device_datasheet_id": "lumitech-lt100-v1.0",
+    "device_datasheet_id": "lumitech-lt100-v3.0",
     "device_sensors": [
       {
         "device_sensor_type": "Accelerometer"
@@ -33,7 +33,7 @@
     "device_serial_number": "02916",
     "device_calibration_date": "2222-01-01",
     "device_firmware_version": "v1.2.3",
-    "device_datasheet_id": "lumitech-lt100-v1.0",
+    "device_datasheet_id": "lumitech-lt100-v2.0",
     "device_sensors": [
       {
         "device_sensor_type": "Accelerometer"

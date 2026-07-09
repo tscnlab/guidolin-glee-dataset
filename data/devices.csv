@@ -1,0 +1,4 @@
+device_internal_id,device_manufacturer,device_model,device_serial_number,device_calibration_date,device_firmware_version,device_datasheet_id,device_sensors
+D001,"Condor Instruments, São Paolo, Brazil",ActLumus,01640,2222-01-01,v1.2.3,lumitech-lt100-v1.0,Accelerometer; Wrist temperature; Melaonpic light sensor; Photopic light sensor; RGP + IR sensor
+D002,"Condor Instruments, São Paolo, Brazil",ActLumus,02916,2222-01-01,v1.2.3,lumitech-lt100-v1.0,Accelerometer; Wrist temperature; Melaonpic light sensor; Photopic light sensor; RGP + IR sensor
+D003,"Condor Instruments, São Paolo, Brazil",ActLumus,01740,2222-01-01,v1.2.3,lumitech-lt100-v1.0,Accelerometer; Wrist temperature; Melaonpic light sensor; Photopic light sensor; RGP + IR sensor

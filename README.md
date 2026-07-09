@@ -4,9 +4,6 @@ Metadata and data resources following the GLEE specification.
 
 ## Validation
 
-This repository is automatically validated using the GLEE validator.
+This repository is automatically validated using the trusted reusable GLEE validator workflow.
 
-Validator image:
-ghcr.io/tscnlab/glee-validator:0.1.4
-
-Validation artifacts are available in GitHub Actions.
+Validation artifacts, including `validation.json` and `validated-files-manifest.json`, are available in GitHub Actions.

@@ -1,0 +1,4 @@
+contributor_full_name,contributor_roles,contributor_email,contributor_orcid,contributor_institution_name,contributor_institution_city,contributor_institution_country
+Ada Lovelace,Author; Conceptualization,ada.lovelace@example.org,0000-0001-2345-6789,University of London,London,United Kingdom
+Alan Turing,Data Collector,alan.turing@example.org,0000-0002-9876-5432,University of Cambridge,,United Kingdom
+Grace Hopper,Software; Data Curation,,0000-0003-1357-2468,,,
